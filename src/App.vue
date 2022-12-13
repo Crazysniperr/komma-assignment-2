@@ -1,16 +1,13 @@
 <template>
-  <Nav_bar/>
   <Hero/>
 
 </template>
 
 <script>
-import Nav_bar from './components/nav_bar.vue';
 import Hero from './components/hero.vue';
 export default {
   name: 'App',
   components: {
-    Nav_bar,
     Hero
   }
 }
